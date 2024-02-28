@@ -1,12 +1,12 @@
 import './App.css';
-import './page/modulo4.css'
-import './page/modulo6.css'
-import './css/modulo5.css'
+import './css/modulo4.css';
+import './css/modulo6.css';
+import './css/modulo5.css';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Modulo4 from './page/modulo4';
-import Modulo5 from './page/modulo5';
-import Modulo6 from './page/modulo6';
-import Modulo7 from './page/modulo7';
+import Modulo4 from './page/modulo4.js';
+import Modulo5 from './page/modulo5.js';
+import Modulo6 from './page/modulo6.js';
+import Modulo7 from './page/modulo7.js';
 
 function App() {
   const router = createBrowserRouter([
