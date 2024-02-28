@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../img/UT.png'
 import user from '../img/user.png'
+import 'tailwindcss/tailwind.css';
 
 function HeaderPresi() {
   return (
