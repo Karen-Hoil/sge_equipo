@@ -35,7 +35,7 @@ function Modulo4() {
         </nav>
       </header>
       <div class="saludo">
-        <h2>Bienvenido (docente)!</h2>
+      Bienvenido (docente)!
       </div>
       <div class="titulo">
         <h1>Control de alumnos asesorados</h1>
