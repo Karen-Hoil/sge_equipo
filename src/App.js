@@ -12,7 +12,7 @@ function App() {
   const router = createBrowserRouter([
     {
       path:"/",
-      element: <Modulo4/>
+      element: <Modulo7/>
     },
     {
       path: "/cartas",
@@ -24,7 +24,7 @@ function App() {
     },
     {
       path: "/proyectos",
-      element: <Modulo7/>
+      element: <Modulo4/>
     }
     
   ]);
