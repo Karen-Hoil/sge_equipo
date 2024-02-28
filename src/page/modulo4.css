@@ -10,21 +10,18 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 
 .flex-item {
     margin: auto;
+    padding: 0 10px;
     min-width: 200px;
 }
 
-.flex-item svg {
-    display: block; /* Para corregir problemas de alineación del SVG */
-    margin: auto; /* Ajuste para centrar horizontalmente */
-}
-
 .logo img {
-    margin: 15px 0 0 50px;
+    margin: auto;
     width: 220px;
     height: 60px;
     filter: drop-shadow(
@@ -36,12 +33,13 @@
     display: flex;
     flex-wrap: wrap;
     color: white;
-    overflow-x: auto;
+    margin: auto;
 }
 
 .div__ul-li {
     list-style-type: none;
-    padding: 15px 0 0 50px;
+    margin: auto;
+    padding: 0 25px;
 }
 
 .ul__li-a {
@@ -50,6 +48,9 @@
 }
 
 .user-img img {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
     padding-top: 10px;
     width: 65px;
     height: 65px;
@@ -58,14 +59,11 @@
 /*! Acaba navbar*/
 
 .saludo {
-    height: 60px;
     margin: 0 25px 0 25px;
     border-bottom: 2px solid #8E8E8E;
-}
-
-.saludo h2 {
     color: #8E8E8E;
     padding: 15px;
+    font-size: 25px;
 }
 
 .titulo {
