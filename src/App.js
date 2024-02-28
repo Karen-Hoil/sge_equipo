@@ -1,4 +1,6 @@
 import './App.css';
+import './page/modulo4.css'
+import './page/modulo6.css'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Modulo4 from './page/modulo4';
 import Modulo5 from './page/modulo5';
@@ -16,7 +18,7 @@ function App() {
       element: <Modulo5/>
     },
     {
-      path: "/dashboard",
+      path: "/presidente",
       element: <Modulo6/>
     },
     {
