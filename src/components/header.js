@@ -6,28 +6,28 @@ function Header() {
   return (
     <div>
       <header>
-        <nav class="nav">
-          <div class="flex-item logo">
-            <img src={logo} alt="logo-ut" class="header__nav" />
+        <nav className="bg-[#325B87] px-14 py-5 flex flex-wrap justify-between items-center">
+          <div className="flex m-auto">
+            <img src={logo} alt="logo-ut" className="w-52 h-14 filter drop-shadow-lg" />
           </div>
-          <div class="flex-item">
-            <ul>
-              <li class="div__ul-li">
-                <a class="ul__li-a">Gestión de estadias</a>
+          <div className="flex m-auto px-5 mt-2">
+            <ul className="flex flex-wrap">
+              <li className="px-5 py-1">
+                <a className="text-white">Gestión de estadias</a>
               </li>
-              <li class="div__ul-li">
-                <a class="ul__li-a">Proyecto</a>
+              <li className="px-5 py-1">
+                <a className="text-white">Proyecto</a>
               </li>
-              <li class="div__ul-li">
-                <a class="ul__li-a">Calendario</a>
+              <li className="px-5 py-1">
+                <a className="text-white">Calendario</a>
               </li>
-              <li class="div__ul-li">
-                <a class="ul__li-a">Documentos</a>
+              <li className="px-5 py-1">
+                <a className="text-white">Documentos</a>
               </li>
             </ul>
           </div>
-          <div class="flex-item user-img">
-            <img src={user} alt="User"/>
+          <div className="flex m-auto mt-2">
+            <img src={user} alt="User" className="w-16 h-16" />
           </div>
         </nav>
       </header>

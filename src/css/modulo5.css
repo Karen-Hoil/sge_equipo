@@ -8,7 +8,12 @@
     position: relative;
   }
   
-
+  .line {
+    border: 1px solid black;
+    width: 95%;
+    position: absolute;
+    top: 20px;
+  }
   
   .title {
     font-size: 24px;
@@ -161,7 +166,7 @@
   
   .sidebar-form-container {
     display: flex;
-    /* background-color: #A7EDE5; Color de fondo del contenedor; */
+    background-color: #A7EDE5; /* Color de fondo del contenedor */
     position: fixed; /* Posicionamiento fijo para que el sidebar no se desplace con el contenido */
     top: 0; /* Ajustar la posición superior */
     bottom: 0; /* Ajustar la posición inferior */
@@ -170,7 +175,7 @@
   
   .special-container {
     display: flex;
-    /* background-color: #a7ede5; Color especial */
+    background-color: #a7ede5; /* Color especial */
     padding: 20px; /* Ajusta el relleno según sea necesario */
     
 }

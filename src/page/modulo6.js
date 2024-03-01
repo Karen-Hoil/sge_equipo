@@ -9,8 +9,8 @@ function Modulo6() {
   return (
     <>
       <HeaderPresi />
-      <div className="saludo">
-        <h2 className="text-2xl">Bienvenido (Presidente)!</h2>
+      <div className="text-zinc-400 border-b border-zinc-400 px-5 py-3 text-xl mx-5">
+        Bienvenido (Presidente)!
       </div>
       <div className="ag-format-container">
         <div className="flex flex-wrap justify-between items-start px-0 md:px-4 py-8">

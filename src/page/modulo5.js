@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import '../css/modulo5.css'; // Importamos el archivo CSS propio
 import Sidebar from './sidebar';
-import Header from '../components/header';
 
 function Modulo5() {
   const [minimized, setMinimized] = useState(false);
@@ -11,14 +10,10 @@ function Modulo5() {
   };
 
   return (
-    <>
-    <Header/>
     <div className="container">
-      
+      {/* Título y línea superior */}
       <div className="title-bar">
-      <div class="saludo">
-      Bienvenido (docente)!
-      </div>
+        <p className="welcome-text">Bienvenido, (Docente)!</p>
         <hr className="line" />
         <h1 className="title">Control de Cartas de Alumnos Asesorados</h1>
       </div>
@@ -81,7 +76,6 @@ function Modulo5() {
         </div>
       </div>
     </div>
-    </>
   );
 }
 
