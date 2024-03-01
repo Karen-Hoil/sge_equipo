@@ -12,19 +12,19 @@ function App() {
   const router = createBrowserRouter([
     {
       path:"/",
-      element: <Modulo7/>
+      element: <Modulo4/>
     },
-    {
-      path: "/cartas",
-      element: <Modulo5/>
-    },
+    // {
+    //   path: "/cartas",
+    //   element: <Modulo5/>
+    // },
     {
       path: "/presidente",
       element: <Modulo6/>
     },
     {
       path: "/proyectos",
-      element: <Modulo4/>
+      element: <Modulo7/>
     }
     
   ]);
